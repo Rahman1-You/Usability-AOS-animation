@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usability Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- top banner -->
+    <div class="top-banner" data-aos="fade-down" data-aos-duration="900">
+        <div class="fit banner-text">
+            <p>😊New to UsabilityHub: Open and closed card sorting! Read more→</p>
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="header fit flex ">
+        <div class="header-left" data-aos="fade-down" data-aos-duration="1000">
+            <img src="./images/logo.png" alt="Company Logo">
+        </div>
+        <div class="header-right " id='target'>
+            <ul class="flex">
+                <li data-aos="fade-down" data-aos-duration="1100"> Home</li>
+                <li data-aos="fade-down" data-aos-duration="1200"> Customers</li>
+                <li data-aos="fade-down" data-aos-duration="1300"> Pricing</li>
+                <li data-aos="fade-down" data-aos-duration="1400"> Resources</li>
+                <li class="primary-btn" data-aos="fade-down" data-aos-duration="1500">SignIn</li>
+                <li class="secondary-btn" data-aos="fade-down" data-aos-duration="1600">SignUp</li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" id="button"></i>
+
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-section fit flex">
+        <div class="hero-text flex" data-aos="fade-right" data-aos-duration="1300">
+            <h1>Design Confidently</h1>
+            <p>UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by
+                validating them with real users.</p>
+            <button class="secondary-btn">Get Started</button>
+        </div>
+        <div class="hero-pic" data-aos="fade-left" data-aos-duration="1300">
+            <img src="./images/rightimg.png" alt="group photo">
+        </div>
+    </div>
+
+    <!-- Companies Section -->
+
+    <div class="company-section fit" data-aos="fade-up" data-aos-duration="1000">
+        <p>The world's best companies rely on UsabilityHub to make better design decisions.</p>
+        <div class="flex some-logos">
+            <img src="./images/amazon.png" alt="Different Logos">
+            <img src="./images/box.png" alt="Different Logos">
+            <img src="./images/asana.png" alt="Different Logos">
+            <img src="./images/godaddy.svg" alt="Different Logos">
+            <img src="./images/google.png" alt="Different Logos">
+            <img src="./images/airtable.png" alt="Different Logos">
+            <img src="./images/box.png" alt="Different Logos">
+        </div>
+    </div>
+
+    <!-- six-cards Section -->
+
+    <div class="six-cards fit ">
+        <div class="six-cards-heading" data-aos="fade-down" data-aos-duration="1000">
+            <h2>Your user research Swiss Army knife</h2>
+            <button class="primary-btn">See All Features <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="cards flex">
+            <div class="flex card-component" data-aos="flip-left" data-aos-duration="1050">
+                <img src="./images/secondcard.svg" alt="">
+                <h3>Prototype tests</h3>
+                <p>Discover how people navigate your Figma prototypes.</p>
+                <button class="primary-btn">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+
+            <div class="flex card-component" data-aos="flip-left" data-aos-duration="1050">
+                <img src="./images/bluetime.svg" alt="Card-logo">
+                <h3>Five second tests
+                </h3>
+                <p>Test comprehensibility by measuring first impressions.</p>
+                <button class="primary-btn">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+
+            <div class="flex card-component" data-aos="flip-left" data-aos-duration="1050">
+                <img src="./images/fifthcard.svg" alt="Card-logo">
+                <h3>Preference tests</h3>
+                <p>Find out which designs users prefer and why.</p>
+                <button class="primary-btn">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+
+            <div class="flex card-component" data-aos="flip-left" data-aos-duration="1050">
+                <img src="./images/thirdcard.svg" alt="Card-logo">
+                <h3>First click tests</h3>
+                <p>Test interaction with first click and navigation tests</p>
+                <button class="primary-btn">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+
+            <div class="flex card-component" data-aos="flip-left" data-aos-duration="1050">
+                <img src="./images/firstcard.svg" alt="Card-logo">
+                <h3>Card Sorting</h3>
+                <p>Discover how people group and label information.</p>
+                <button class="primary-btn">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+
+            <div class="flex card-component" data-aos="flip-left" data-aos-duration="1050">
+                <img src="./images/forthcard.svg" alt="Card-logo">
+                <h3>Design surveys</h3>
+                <p>Get feedback on images, videos or audio files.</p>
+                <button class="primary-btn">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Three Cards Section -->
+    <div class="three-cards fit">
+        <div class="first-card  flex">
+            <div class="pic" data-aos="zoom-out" data-aos-duration="1000">
+                <img src="./images/girlreading.png" alt="Girl doing painting">
+            </div>
+            <div class="text" data-aos="zoom-in" data-aos-duration="1100">
+                <h3>
+                    Effortless validation for</h3>
+                <h2>
+                    Design professionals</h2>
+                <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful
+                    experiences for your users.</p>
+            </div>
+        </div>
+
+        <div class="second-card fit flex">
+            <div class="text" data-aos="zoom-in" data-aos-duration="1100">
+                <h3>Optimisation for</h3>
+                <h2>Marketers</h2>
+                <p>Fine-tune landing pages, messaging, and creative, helping you optimise conversion rates on marketing
+                    campaigns and product launches.</p>
+            </div>
+            <div class="pic" data-aos="zoom-out" data-aos-duration="1000">
+                <img src="./images/boyreading.png" alt="Newspaper reading">
+            </div>
+        </div>
+
+        <div class="third-card fit flex">
+            <div class="pic" data-aos="zoom-out" data-aos-duration="1000">
+                <img src="./images/boythinking.png" alt="White board drawing ">
+            </div>
+            <div class="text" data-aos="zoom-in" data-aos-duration="1100">
+                <h3>Easier decision making for</h3>
+                <h2>Product managers
+                </h2>
+                <p>Ensure you're delivering the right features to the right customers by validating product concepts
+                    with your target audience.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Four cards section  -->
+
+    <div class="four-cards fit">
+
+        <div class="upper-text" data-aos="fade-up" data-aos-duration="1000">
+            <h2>One platform, endless possibilities</h2>
+            <button class="primary-btn">See More Examples <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+
+        <div class="flex shadow-cards">
+            <div style="background:linear-gradient(rgb(0,0,0,0.1) , #00000080), url('./images/signboard.jpeg'); background-repeat: no-repeat;  background-size: cover;"
+                data-aos="flip-up" data-aos-duration="2000">
+                <h3>Can users complete a taske in my software interface?</h3>
+            </div>
+
+            <div style="background: linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.5)) , url('./images/paper\ writing.jpeg'); background-repeat: no-repeat;  background-size: cover;"
+                data-aos="flip-up" data-aos-duration="2000">
+                <h3>Can users find important pages on my website?</h3>
+            </div>
+
+            <div style="background:linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.5)) , url('./images/audience\ pic.jpeg'); background-repeat: no-repeat;  background-size: cover;"
+                data-aos="flip-up" data-aos-duration="2000">
+                <h3>Is mt website's intended audience clear?</h3>
+            </div>
+
+
+            <div style="background: linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.5)) , url('./images/paints.webp'); background-position: center; background-repeat: no-repeat; background-size: cover;"
+                data-aos="flip-up" data-aos-duration="2000">
+                <h3>Do visitors understand what a page is about?</h3>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Blue area -->
+
+    <div class=" blue-area" data-aos="fade-down" data-aos-duration="900">
+        <div class="fit flex blue-area-components" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Start testing today</h2>
+            <p>Take the guesswork out of design decisions</p>
+            <button class="secondary-btn">Get Started</button>
+        </div>
+    </div>
+
+    <!-- Sub Footer -->
+
+    <div class="  sub-footer">
+        <div class="flex fit sub-footer-components">
+            <div class="footer-pic" data-aos="zoom-in-right" data-aos-duration="1000">
+                <img src="./images/logo.png" alt="Company logo in footer">
+            </div>
+            <div class="products " data-aos="zoom-in-left" data-aos-duration="1500">
+                <ul class="flex">
+                    <h3>Products</h3>
+                    <li>Overview</li>
+                    <li>Pricing</li>
+                    <li>Usability Hub</li>
+                    <li>Customers Page</li>
+                    <li>Status</li>
+                </ul>
+            </div>
+            <div class="methodologies " data-aos="zoom-in-left" data-aos-duration="1500">
+                <ul class="flex">
+                    <h3>Methodologies</h3>
+                    <li>Card Sorting</li>
+                    <li>Prototype Testing</li>
+                    <li>First Click Tests</li>
+                    <li>Preference Tests</li>
+                    <li>Five Second Tests</li>
+                    <li>Design Surveys</li>
+                </ul>
+            </div>
+            <div class="resources " data-aos="zoom-in-left" data-aos-duration="1500">
+                <ul class="flex">
+                    <h3>Resources</h3>
+                    <li>Blog</li>
+                    <li>Examples</li>
+                    <li>Testing Guides</li>
+                    <li>Help Center</li>
+                    <li>Contact</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="fit">
+            <ul class=" flex">
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Safety Infomartion</li>
+                <li><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- JAVESCRIPT for navbar toggle -->
+    <script>
+        const a = document.getElementById('target');
+        const b = document.getElementById('button');
+        b.addEventListener('click', () => {
+            a.classList.toggle('show');
+        });
+    </script>
+    <!-- Js for AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
