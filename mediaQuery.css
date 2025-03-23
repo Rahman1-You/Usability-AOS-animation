@@ -95,25 +95,28 @@
     }
 
     .three-cards {
-
         margin-inline: 10px;
     }
 
     .three-cards .first-card {
         flex-direction: column;
-        gap: 2px;
+        gap: 20px;
         margin-bottom: 30px;
+    }
+    .three-cards .first-card .pic , .second-card .pic , .third-card .pic {
+        margin-inline: auto;
+        width: 90%;
     }
 
     .three-cards .second-card {
         flex-direction: column-reverse;
-        gap: 2px;
+        gap: 20px;
         margin-bottom: 30px;
     }
 
     .three-cards .third-card {
         flex-direction: column;
-        gap: 2px;
+        gap: 20px;
     }
 
     .four-cards .shadow-cards {

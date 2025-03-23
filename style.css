@@ -7,16 +7,11 @@
     padding: 0px;
     box-sizing: border-box;
     /* border: 1px solid  red; */
-    /* background-color: #f2f4f7; */
 }
-
-/* body{
-     background-color: #183b56;
-} */
 :root {
     --lightblue-btn: #38a7fc;
     --blue-color: #088ef4;
-    --gray-text: #615d5d;
+    --gray-text: #2a2929;
     --top-banner: #5097e3;
 
 }
@@ -221,7 +216,6 @@ h3 {
     margin-block: 20px;
     /*  this margin-block is the empty space outside this parent div from top and bottom.. */
 }
-
 .first-card {
     gap: 30px;
 
