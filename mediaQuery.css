@@ -84,16 +84,15 @@
     }
 
     .company-section .some-logos {
-        /* gap: 5px; */
+        gap: 20px;
         flex-wrap: wrap;
     }
 
     .company-section .some-logos img {
-        height: 40px;
-        margin-block: 1px;
-        width: auto;
-    }
+        height: 40%;
+        width: 25%;
 
+    }
     .three-cards {
         margin-inline: 10px;
     }
@@ -172,7 +171,9 @@
         margin-block: 10px;
         padding-inline: 10px;
     }
-   
+   .header .header-left img{
+     min-width: 70%;
+   } 
     .header .header-right ul {
         gap: 10px;
         font-size: 0.9rem;
